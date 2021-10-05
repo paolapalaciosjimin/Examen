@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+     <link rel="icon" href="imgbts/icons8-bts-logo (1).svg">
+    <title>Dom</title>
+</head>
+<body>
+    <div class="main-container">
+        <di class="search-input">Buscar por título
+            <input type="text" id="search-input"/>
+        </di>
+        <div class="lits-container" id="list-container"></div>
+        <div class="playing-card">
+            <div class="cover-card">
+                <img src="imgbts/album-cover (3).jpg" alt="" id="cover-card-img"/>
+            </div>
+            <div id="title-card"></div>
+            <input type="range" id="progress-bar" class="progress-bar"/>
+
+            <div class="controls-container">
+                <button id="prev-btn"><<</button>
+                <button id="play-btn">play</button>
+                <button id="next-btn">>></button>
+            </div>
+
+        </div>
+    </div>
+    <audio src="audio/A Tus Pies.mp3" id="audio"></audio>
+ <script src="scripts.js"></script>
+</body>
+</html>
